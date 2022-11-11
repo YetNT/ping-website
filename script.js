@@ -1,5 +1,5 @@
-var input = document.getElementById("input").value
-var output = document.getElementById("output").value
+const input = document.getElementById("input").value
+const output = document.getElementById("output")
 /*
 document.getElementById("lol").addEventListener("click", myFunction);
 
@@ -19,11 +19,11 @@ function myFunction() {
 var p = new Ping();
 
 // Using callback
-p.ping("https://github.com", function(err, data) {
+p.ping(input, function(err, data) {
   // Also display error if err is returned.
   if (err) {
     console.log("error loading resource")
     data = data + " " + err;
   }
-  document.getElementById("ping-github").innerHTML = data;
+  output.innerHTML = data;
 });
