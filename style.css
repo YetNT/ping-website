@@ -2,24 +2,40 @@ html, body {
   height: 100%;
   width: 100%;
   background: #1e2124;
+  text-align: center
 }
 
 #lol {
   width:10%;
-  height:10%
+  height:4%;
+  border: 5px forestgreen double;
+  border-top-left-radiuss: 10px
 }
 .output {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border:#1e2124 double 1cm;
 }
 #git-link {
-  color: #7289da;
   position: relative;
   bottom: 50px;
+  border: none;
+  background: #7289da ;
+  border-radius: 5px;
+  height: 25%;
+  width: 15%
+}
+#input {
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
 }
 
-
 #git-link:hover {
-  color: sandybrown;
-  border: sandybrown silver 1cm;
+height: 27%;
+  width: 17%
+}
+
+#a-git-link {
+  color: #1e2124
 }
