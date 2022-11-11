@@ -8,8 +8,8 @@ html, body {
 #lol {
   width:10%;
   height:4%;
-  border: 5px forestgreen double;
-  border-top-left-radiuss: 10px
+  border: #6ca36c double;
+  border-radius: 5px
 }
 .output {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,11 +21,18 @@ html, body {
   border: none;
   background: #7289da ;
   border-radius: 5px;
-  height: 25%;
+  height: 25%;  
   width: 15%
 }
 #input {
+  border: #6ca36c double;
   border-radius: 5px;
+  height: 3%;
+  width: 13%
+}
+#input:hover {
+height: 3%;
+  width: 15%
 }
 a {
   text-decoration: none;
@@ -38,4 +45,39 @@ height: 27%;
 
 #a-git-link {
   color: #1e2124
+}
+#lol:hover {
+  background: #6ca36c;
+  color: wheat;
+  width:15%;
+  height:4%;
+}
+
+@media only screen and (max-width: 600px) {
+  #lol {
+   width:55%;
+  height:5%;
+  }
+  #input {
+     width:65%;
+  height:3%;
+  }
+  #git-link {
+     width:35%;
+  height:5%;
+  }
+    #git-link:hover {
+     width:45%;
+  height:5%;
+  }
+  #input:hover {
+height: 3%;
+  width: 70%
+}
+  #lol:hover {
+  background: #6ca36c;
+  color: wheat;
+  width:70%;
+  height:5%;
+}
 }

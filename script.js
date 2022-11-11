@@ -1,11 +1,12 @@
 const input = document.getElementById("input").value
-const output = document.getElementById("output")
-/*
-document.getElementById("lol").addEventListener("click", myFunction);
+const output = document.getElementById("output");
+const button = document.getElementById("lol")
+
+button.addEventListener("click", myFunction);
 
 function myFunction() {
   $.ajax({
-    url: document.getElementById("input").value,
+    url: input,
     success: function(result){
       alert('reply');
     },    
@@ -14,16 +15,3 @@ function myFunction() {
       }
   });
 };
-*/
-
-var p = new Ping();
-
-// Using callback
-p.ping(input, function(err, data) {
-  // Also display error if err is returned.
-  if (err) {
-    console.log("error loading resource")
-    data = data + " " + err;
-  }
-  output.innerHTML = data;
-});
