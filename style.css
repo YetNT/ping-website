@@ -1,4 +1,25 @@
 html, body {
   height: 100%;
   width: 100%;
+  background: #1e2124;
+}
+
+#lol {
+  width:10%;
+  height:10%
+}
+.output {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border:#1e2124 double 1cm;
+}
+#git-link {
+  color: #7289da;
+  position: relative;
+  bottom: 50px;
+}
+
+
+#git-link:hover {
+  color: sandybrown;
+  border: sandybrown silver 1cm;
 }
