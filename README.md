@@ -4,4 +4,4 @@
 
 ## developed by
 [Flo (CSS)](https://github.com/FloOnDaCode) 
-[Yet (JS,HTML)](https://github.com/Yetity) # HTML,JS,CSS
+[Yet (JS,HTML)](https://github.com/Yetity)
