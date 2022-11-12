@@ -11,9 +11,9 @@ html, body {
   border: #6ca36c double;
   border-radius: 5px
 }
-.output {
+#output {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border:#1e2124 double 1cm;
+ color: white;
 }
 #git-link {
   position: relative;
@@ -81,3 +81,18 @@ height: 3%;
   height:5%;
 }
 }
+
+#about {
+  position: relative;
+  bottom: 50px;
+  border: none;
+  background: #7289da ;
+  border-radius: 5px;
+  height: 25%;  
+  width: 15%
+}
+#about:hover {
+height: 27%;
+  width: 17%
+}
+

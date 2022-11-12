@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #1e2124;
+  
+}
+
+#info-text {
+ color: white
+}
+
+#devs-h1 {
+  color: white;
+}
+
+#flo-btn {
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  background: #7289da;
+  color: white;
+  margin: 0px;
+  border: none;
+}
+
+#yet-btn {
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  background: #7289da;
+  color: white;
+  margin: 0px;
+  border: none;
+}
+
+#yet-btn:hover {
+  width: 125px;
+}
+
+#flo-btn:hover {
+  width: 125px;
+}
