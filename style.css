@@ -2,97 +2,29 @@ html, body {
   height: 100%;
   width: 100%;
   background: #1e2124;
-  text-align: center
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #lol {
   width:10%;
   height:4%;
-  border: #6ca36c double;
-  border-radius: 5px
+  border-radius: 10px;
 }
-#output {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- color: white;
-}
+
 #git-link {
-  position: relative;
-  bottom: 50px;
-  border: none;
-  background: #7289da ;
-  border-radius: 5px;
-  height: 25%;  
-  width: 15%
+  color: #7289da;
+  bottom: auto;
 }
+
 #input {
-  border: #6ca36c double;
-  border-radius: 5px;
-  height: 3%;
-  width: 13%
-}
-#input:hover {
-height: 3%;
-  width: 15%
-}
-a {
-  text-decoration: none;
+  border: crimson double 5px;
+  border-radius: 10px;
+  width:15%;
+  height:2%
 }
 
-#git-link:hover {
-height: 27%;
-  width: 17%
+#output {
+  color: blue;
+  size:20%
 }
-
-#a-git-link {
-  color: #1e2124
-}
-#lol:hover {
-  background: #6ca36c;
-  color: wheat;
-  width:12%;
-  height:4%;
-}
-
-@media only screen and (max-width: 600px) {
-  #lol {
-   width:55%;
-  height:5%;
-  }
-  #input {
-     width:65%;
-  height:3%;
-  }
-  #git-link {
-     width:35%;
-  height:5%;
-  }
-    #git-link:hover {
-     width:45%;
-  height:5%;
-  }
-  #input:hover {
-height: 3%;
-  width: 70%
-}
-  #lol:hover {
-  background: #6ca36c;
-  color: wheat;
-  width:70%;
-  height:5%;
-}
-}
-
-#about {
-  position: relative;
-  bottom: 50px;
-  border: none;
-  background: #7289da ;
-  border-radius: 5px;
-  height: 25%;  
-  width: 15%
-}
-#about:hover {
-height: 27%;
-  width: 17%
-}
-
