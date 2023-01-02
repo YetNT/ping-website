@@ -10,11 +10,37 @@
 </head>
 
 <body>
+  <nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <ul id="menu">
+        <a href="/"><li>Home</li></a>
+        <a href="/about"><li>About</li></a>
+        <a href="https://github.com/Yetity/ping-website" target="_blank"><li>Github</li></a>
+      </ul>
+    </div>
+  </nav>
+  <br>
   <center>
     <h1 id="info-text">This website allows you to see the response time of any website, just paste the link in the text
       box and click
-      the enter button. This project is open-sourced and you can find it on github. This site works with the help of
-      asynchronous javascrip and xml.</h1>
+      the enter button. This an open source project that you can find on github. This site works with the help of
+      asynchronous javascript.</h1>
   </center>
 
 

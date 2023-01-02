@@ -10,6 +10,31 @@
 </head>
 
 <body>
+  <nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <ul id="menu">
+        <a href="/"><li>Home</li></a>
+        <a href="/about"><li>About</li></a>
+        <a href="https://github.com/Yetity/ping-website" target="_blank"><li>Github</li></a>
+      </ul>
+    </div>
+  </nav>
   <input id="input" placeholder="link" />
   <button onclick="myFunction()" id="lol">enter</button>
   <br><br>

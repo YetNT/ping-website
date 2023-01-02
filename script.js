@@ -10,8 +10,6 @@ async function ping(url) {
   }
 }
 
-console.log(ping("https://google.com"))
-
 async function myFunction() {
   const output = await ping(document.getElementById("input").value);
   document.getElementById("output").innerHTML = output;
