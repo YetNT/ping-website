@@ -1,4 +1,30 @@
 html, body {
   height: 100%;
   width: 100%;
+  background: #1e2124;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#lol {
+  width:10%;
+  height:4%;
+  border-radius: 10px;
+}
+
+#git-link {
+  color: #7289da;
+  bottom: auto;
+}
+
+#input {
+  border: crimson double 5px;
+  border-radius: 10px;
+  width:15%;
+  height:2%
+}
+
+#output {
+  color: blue;
+  size:20%
 }

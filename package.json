@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ping.js": "github:alfg/ping.js"
+  }
+}
