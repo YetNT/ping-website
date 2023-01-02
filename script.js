@@ -1,18 +1,32 @@
+var http = require('http')
+const input = document.getElementById("input").value
+const output = document.getElementById("output");
+const button = document.getElementById("lol")
 
-async function ping(url) {
-  const startTime = performance.now();
-  try {
-    await fetch(url, { mode: "no-cors" });
-    const endTime = performance.now();
-    return `Response time: ${endTime - startTime}ms`;
-  } catch (error) {
-    return `Error: ${error}`;
+button.addEventListener("click", myFunction);
+
+
+var options = {
+  host: input,
+  port: 80,
+  path: '/index.html'
+};
+
+http.get(options, function(res) {
+  if (res.statusCode == 200) {
+    console.log("success");
   }
-}
+}).on('error', function(e) {
+  console.log("Got error: " + e.message);
+});
 
-console.log(ping("https://google.com"))
-
-async function myFunction() {
-  const output = await ping(document.getElementById("input").value);
-  document.getElementById("output").innerHTML = output;
+function myFunction() {
+  $.ajax({
+    url: input,
+    method: 'HEAD',
+    start_time: new Date().getTime(),
+    success: function(data) {
+      output.innerHTML = 'Ping = ' + (new Date().getTime() - this.start_time) + 'ms'
+    }
+  });
 }
