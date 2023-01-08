@@ -6,5 +6,4 @@ Use `git clone https://github.com/Yetity/ping-website.git` to clone this project
 
 
 ## developed by
-[Flo (CSS)](https://github.com/FloOnDaCode)\
-[Yet (JS,HTML)](https://github.com/Yetity)
+[Flo (CSS)](https://github.com/FloOnDaCode) | [Yet (JS,HTML)](https://github.com/Yetity)
